@@ -1,0 +1,44 @@
+Raport:
+           ~Ciontu Claudia-Elena
+           ~Laborator 7
+            ~CR2.1B
+Pentru laboratorul 7 a trebuit sa simulez procesorul MIPS creat in laboratoarele precedente. 
+Pentru inceput am creat un fisier text denumit test1.asm in folderol numit asm. Apoi am adaugat in test1.asm programul de verificare test1 prezentat in platform de laborator la inceput dupa cum se vede in imaginea de mai jos
+
+ 
+Dupa care am facut o copie a fisierului ROM32x32.vhd, numita ROM32x32_test1.vhd, in care am inlocuit datele cu datele din programul de verificare si am obtinut urmatorul cod 
+ 
+Se completeaza un tabel in care se inregistreaza valorile memorate in 32 de registre generale pe    durata executarii programului de test, pe linie fiind scrise in ordine instructiunile din programul  de test, toate valorile fiind scrise in hexazecimal.
+ 
+
+
+In continuare a urmat simularea, si pentru aceasta am adaugat un nou fisier de tip tbw, numit tb_test1.tbw si am, introdus datele de intrare cerute in platforma de laborator dupa cum vedeti mai jos
+ 
+Si am simulat in modulul behavioral (deoarece este mai rapid), cu ajutorul ModelSim-ului, si am obtinut urmatoarele rezultate
+
+ 
+Sectiunea SE CERE: 
+ Simularea -aceasta s-a efetuat mai sus 
+ Prin intermediul semnalelor PC, Instr, s32reg32 ?i al portului OUTW0 urm?rim execu?ia în timp a programului de test. Când o instruc?iune func?ioneaz? corect, s32reg32 ?i OUTW0 din simularea Modelsim vor avea valorile de mai jos
+
+ 
+
+
+
+
+
+ Dac? toate instruc?iunile au func?ionat corect, am trecut la pasul 6. Dac? nu, am completat tabelul de mai jos pentru prima instruc?iune care nu a functionat ?i am coninuat cu pasul urm?tor
+ 
+
+
+
+Pasul4
+Pasul6
+Pasul7
+Instructiune	Tabel	Simulare
+lw $2, 0x40($0)	AAAA_AAAB	82A22A81
+add $4, $2, $3	0000_0000	              D7F77DD8
+sub $5, $2, $3	5555_5556	            2D4CD32E
+or $7, $2, $3		FFFF_FFFF	              D7F77DD7
+
+ 

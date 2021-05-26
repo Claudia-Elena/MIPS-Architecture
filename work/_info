@@ -1,0 +1,528 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Xilinx\mips
+Ealu
+Z1 w1584914082
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z3 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 dC:\Users\lenovo\Downloads\Lab8-mips\mips
+Z6 8ALU.vhd
+Z7 FALU.vhd
+l0
+L30
+VIR]IQBa54WFS35P>>_cnc0
+Z8 OX;C;6.4b;39
+31
+Z9 o-explicit -93 -O0
+Z10 tExplicit 1
+!s100 3n0Q^N^HfYa0dgeZNSQJK1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 IR]IQBa54WFS35P>>_cnc0
+l43
+L39
+VACoL;_@Ffl9H54a>WL5d=3
+R8
+31
+Z11 Mx3 4 ieee 14 std_logic_1164
+Z12 Mx2 4 ieee 15 std_logic_arith
+Z13 Mx1 4 ieee 18 std_logic_unsigned
+R9
+R10
+!s100 jZ8E>PBOmF;7LdB]GcNRh1
+Ectrl
+Z14 w1584902588
+R2
+R3
+R4
+R5
+Z15 8ctrl.vhd
+Z16 Fctrl.vhd
+l0
+L30
+Vd68UCmPQ4ImKOm7QK3oGW1
+R8
+31
+R9
+R10
+!s100 =:PRo08f8BC1OO]A?^bAj1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 4 ctrl 0 22 d68UCmPQ4ImKOm7QK3oGW1
+l43
+L41
+Vj=e@cZGa>hYe>4a2PNVEV1
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 EPJ_Z4UKnnDF;iL4`_`He2
+Edatamem
+Z17 w1584905251
+R2
+R3
+R4
+R5
+Z18 8DataMem.vhd
+Z19 FDataMem.vhd
+l0
+L30
+VTg<dFS?<Z_5e7<b0NMMoA3
+R8
+31
+R9
+R10
+!s100 =ZjnAA:`?d:d0i3H=VWdL1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 7 datamem 0 22 Tg<dFS?<Z_5e7<b0NMMoA3
+l49
+L45
+VPb4`z]Dcj[Z]JJWK<TWa?2
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 n3ZkXIWbh5gI5fHHcV:[83
+Efile_regs
+Z20 w1584893803
+R2
+R3
+R4
+R5
+Z21 8File_Regs.vhd
+Z22 FFile_Regs.vhd
+l0
+L30
+VZ:Y>?kGTfndieYbe]XczP0
+R8
+31
+R9
+R10
+!s100 <QZ4S9JBAV7m:Ke7[KTAK1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 9 file_regs 0 22 Z:Y>?kGTfndieYbe]XczP0
+l46
+L41
+V3;]DJkzKo7L;]C1Obi01T2
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 IJJz]oj6`BAP>?doHDa8[3
+Emips
+Z23 w1620127108
+Z24 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z25 DPx9 vital2000 16 vital_primitives 0 22 P<o@__YgakiANKimF[boN3
+Z26 DPx7 simprim 8 vpackage 0 22 62<92?H`[OPC[b77DL^6:0
+Z27 DPx9 vital2000 12 vital_timing 0 22 S^n>oJ2GS[H5aTKMo9OkE0
+Z28 DPx7 simprim 11 vcomponents 0 22 NYkjb^:l?oWklmcJQ6=181
+R4
+Z29 dC:\Users\ciont\Desktop\Facultate\Structura si organizarea Calculatorului\Laborator7\Lab7
+Z30 8netgen/par/mips_timesim.vhd
+Z31 Fnetgen/par/mips_timesim.vhd
+l0
+L41
+VBDI=e5n31ceo1X=[KZ4:c3
+R8
+31
+R9
+R10
+!s100 ;1<JcF6z?VE0]JIG<fzLI2
+Astructure
+R24
+R25
+R26
+R27
+R28
+R4
+DEx4 work 4 mips 0 22 BDI=e5n31ceo1X=[KZ4:c3
+l1719
+L50
+V6LcKeB5ifPM`k:JAd53AH3
+!s100 ACOjl?9IElL_hegAGcFo`3
+R8
+31
+Z32 Mx6 4 ieee 14 std_logic_1164
+Mx5 7 simprim 11 vcomponents
+Mx4 9 vital2000 12 vital_timing
+Mx3 7 simprim 8 vpackage
+Mx2 9 vital2000 16 vital_primitives
+Z33 Mx1 3 std 6 textio
+R9
+R10
+Abehavioral
+Z34 DPx6 unisim 11 vcomponents 0 22 6Bno5d?=9BlFAj[lAHJHA1
+Z35 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R4
+DEx4 work 4 mips 0 22 CjaJ9A5J>3a=lTEG?^[?A1
+l123
+L35
+VU:dWlR?OfIJ4nK^^Fn@hS2
+R8
+31
+R11
+Mx2 4 ieee 11 numeric_std
+Z36 Mx1 6 unisim 11 vcomponents
+R9
+R10
+R5
+Fmips.vhf
+w1586384299
+8mips.vhf
+!s100 >lTj;`2jcSeb=5N`K^a__3
+Emux2v32
+Z37 w1584903906
+R2
+R3
+R4
+R5
+Z38 8MUX2V32.vhd
+Z39 FMUX2V32.vhd
+l0
+L30
+VFD2`iR69=4A9fk6l<USU=3
+R8
+31
+R9
+R10
+!s100 IP:D:ZNGG2Vk@5[;I[FHX2
+Abehavioral
+R2
+R3
+R4
+DEx4 work 7 mux2v32 0 22 FD2`iR69=4A9fk6l<USU=3
+l39
+L37
+VBLEJ76VIQ9:ejjgSD=2nn3
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 LRjWTCDYH3e[=OZ3gdd8k0
+Emux2v5
+Z40 w1586388030
+R2
+R3
+R4
+R5
+Z41 8MUX2V5.vhd
+Z42 FMUX2V5.vhd
+l0
+L30
+V[bP3L87Z:RUiO>>W2HnRo3
+R8
+31
+R9
+R10
+!s100 XhzAPMcLcN;EM44B0mkGi1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 6 mux2v5 0 22 [bP3L87Z:RUiO>>W2HnRo3
+l39
+L37
+VnDzHliGLEkKk;7<b?Sbdg1
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 A:8b^F>KnCIiQF<4fdi`]1
+Epc_update
+Z43 w1583763665
+R2
+R3
+R4
+R5
+Z44 8PC_Update.vhd
+Z45 FPC_Update.vhd
+l0
+L30
+VWHTOzPU_T`cCaQnP0G;`T0
+R8
+31
+R9
+R10
+!s100 YIT?Q>2eRHK;9Tk371am_0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 9 pc_update 0 22 WHTOzPU_T`cCaQnP0G;`T0
+l37
+L35
+V:g<F>fXYfEn9Yl=ebi?V42
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 CiH`;zie?GLg1m[65?k5B0
+Eprogcnt
+Z46 w1583763513
+R2
+R3
+R4
+R5
+Z47 8ProgCnt.vhd
+Z48 FProgCnt.vhd
+l0
+L30
+VZ<doN4X99jehVU:YJQ9VW0
+R8
+31
+R9
+R10
+!s100 <>7PCNH8JlNY3z]0]34g_1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 7 progcnt 0 22 Z<doN4X99jehVU:YJQ9VW0
+l38
+L36
+VALFhGMQhI?8adYkYomI3F2
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 G?]E`iO>kUV]I_RV4T:a:3
+Erom32x32
+Z49 w1585430968
+R2
+R3
+R4
+R5
+Z50 8ROM32x32 - test1.vhd
+Z51 FROM32x32 - test1.vhd
+l0
+L30
+Vh]3Qa5Ci0B^bj=J`=i?Wl0
+R8
+31
+R9
+R10
+!s100 FN:G3dl>3BLDJ<zI?K2;j1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 8 rom32x32 0 22 h]3Qa5Ci0B^bj=J`=i?Wl0
+l72
+L35
+VaQ=gVZgMHe6hg8H95RLFl2
+R8
+31
+R11
+R12
+R13
+R9
+R10
+!s100 W6Q4Mn5];5E<=5_fJ@O:>3
+Etb_mps
+Z52 w1586385674
+R2
+R3
+R24
+Z53 DPx4 ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
+R35
+R4
+R34
+Z54 8tb_mps.vhw
+Z55 Ftb_mps.vhw
+l0
+L30
+V[Ngk`m]a<9QbNje2aX=_l1
+R8
+31
+R9
+R10
+!s100 ndRkK]>Im2UgCdBIg6ZLh2
+Atestbench_arch
+R2
+R3
+R24
+R53
+R35
+R4
+R34
+DEx4 work 6 tb_mps 0 22 [Ngk`m]a<9QbNje2aX=_l1
+l54
+L33
+V>YEO[_9U]bmcYfLh?Ff3e1
+R8
+31
+Z56 Mx7 6 unisim 11 vcomponents
+R32
+Z57 Mx5 4 ieee 11 numeric_std
+Z58 Mx4 4 ieee 16 std_logic_textio
+Z59 Mx3 3 std 6 textio
+R12
+R13
+R9
+R10
+!s100 Gd^FnLazlSI@SQ4ZD>iYU3
+Etbw
+Z60 w1584286293
+R2
+R3
+R24
+R53
+R35
+R4
+R34
+Z61 8tbw.vhw
+Z62 Ftbw.vhw
+l0
+L30
+Vl^ll`_[GN`63[@IIK5RBC2
+R8
+31
+R9
+R10
+!s100 ogllkILG<^b_ZLWjFe_M=2
+Atestbench_arch
+R2
+R3
+R24
+R53
+R35
+R4
+R34
+DEx4 work 3 tbw 0 22 l^ll`_[GN`63[@IIK5RBC2
+l46
+L33
+V1ezL5DOdUMfCV^lm3HgTg1
+R8
+31
+R56
+R32
+R57
+R58
+R59
+R12
+R13
+R9
+R10
+!s100 dQ9g_8jEF9[O5INYIF5Je3
+Etbw_mips
+Z63 w1586769490
+R2
+R3
+R24
+R53
+R35
+R4
+R34
+R29
+Z64 8tbw_mips.vhw
+Z65 Ftbw_mips.vhw
+l0
+L30
+VhGKz9G[O<@dAk?=]9ZgF30
+!s100 :Llejf5[1Z>PWidL<GCXG0
+R8
+31
+R9
+R10
+Atestbench_arch
+R2
+R3
+R24
+R53
+R35
+R4
+R34
+Z66 DEx4 work 8 tbw_mips 0 22 hGKz9G[O<@dAk?=]9ZgF30
+l52
+L33
+Z67 V;Q0zePDDoHb8Sa4RCPYZU0
+Z68 !s100 ^J?W55mO:FH5kI5Yk;`hz1
+R8
+31
+R56
+R32
+R57
+R58
+R59
+R12
+R13
+R9
+R10
+Etbw_mips_selfcheck_beh
+Z69 w1586769498
+R2
+R3
+R24
+R53
+R35
+R4
+R34
+R29
+Z70 8tbw_mips_selfcheck_beh.vhd
+Z71 Ftbw_mips_selfcheck_beh.vhd
+l0
+L30
+Vfig560HiLVa>1Ek;Yd1AD0
+R8
+31
+R9
+R10
+!s100 6>7kX[7HjSKAiSHQDmAMH0
+Atestbench_arch
+R2
+R3
+R24
+R53
+R35
+R4
+R34
+DEx4 work 22 tbw_mips_selfcheck_beh 0 22 fig560HiLVa>1Ek;Yd1AD0
+l55
+L33
+V7aH^GIX;KbROYjiW1Kf^b3
+R8
+31
+R56
+R32
+R57
+R58
+R59
+R12
+R13
+R9
+R10
+!s100 AKBShViDz:U^X^SWeE;no3
