@@ -1,0 +1,56 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Xilinx/mips/mips.sch" mips.vhf
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+ngdbuild -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "mips.ngc" mips.ngd
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+ngdbuild -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "mips.ngc" mips.ngd
+map -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Xilinx/mips/mips.sch" mips.vhf
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+ngdbuild -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "mips.ngc" mips.ngd
+map -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Xilinx/mips/mips.sch" mips.vhf
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+ngdbuild -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "mips.ngc" mips.ngd
+map -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+map -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+map -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Xilinx/mips/mips.sch" mips.vhf
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+ngdbuild -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "mips.ngc" mips.ngd
+map -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Xilinx/mips/mips.sch" mips.vhf
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+ngdbuild -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "mips.ngc" mips.ngd
+map -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+par -ise "D:/Xilinx/mips/mips.ise" -w -intstyle ise -ol std -t 1 mips_map.ncd mips.ncd mips.pcf
+trce -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -e 3 -s 4 -xml mips mips.ncd -o mips.twr mips.pcf
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+ngdbuild -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "mips.ngc" mips.ngd
+map -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+par -ise "D:/Xilinx/mips/mips.ise" -w -intstyle ise -ol std -t 1 mips_map.ncd mips.ncd mips.pcf
+trce -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -e 3 -s 4 -xml mips mips.ncd -o mips.twr mips.pcf
+xst -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+ngdbuild -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "mips.ngc" mips.ngd
+map -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+par -ise "D:/Xilinx/mips/mips.ise" -w -intstyle ise -ol std -t 1 mips_map.ncd mips.ncd mips.pcf
+trce -ise "D:/Xilinx/mips/mips.ise" -intstyle ise -e 3 -s 4 -xml mips mips.ncd -o mips.twr mips.pcf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Xilinx/mips/mips.sch" mips.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Xilinx/mips/mips.sch" mips.vhf
+xst -ise "C:/Users/lenovo/Downloads/Lab8-mips/mips/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+ngdbuild -ise "C:/Users/lenovo/Downloads/Lab8-mips/mips/mips.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "mips.ngc" mips.ngd
+map -ise "C:/Users/lenovo/Downloads/Lab8-mips/mips/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+par -ise "C:/Users/lenovo/Downloads/Lab8-mips/mips/mips.ise" -w -intstyle ise -ol std -t 1 mips_map.ncd mips.ncd mips.pcf
+trce -ise "C:/Users/lenovo/Downloads/Lab8-mips/mips/mips.ise" -intstyle ise -e 3 -s 4 -xml mips mips.ncd -o mips.twr mips.pcf
+netgen -ise "C:/Users/tibis/Downloads/Alexandra_Baluta/Lab8-mips/mips/mips.ise" -intstyle ise -s 4 -pcf mips.pcf -rpw 100 -tpw 0 -ar Structure -tm mips -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim mips.ncd mips_timesim.vhd
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/ciont/Desktop/Facultate/Structura si organizarea Calculatorului/Laborator7/Lab7/mips.sch" mips.vhf
+xst -ise "C:/Users/ciont/Desktop/Facultate/Structura si organizarea Calculatorului/Laborator7/Lab7/mips.ise" -intstyle ise -ifn mips.xst -ofn mips.syr
+ngdbuild -ise "C:/Users/ciont/Desktop/Facultate/Structura si organizarea Calculatorului/Laborator7/Lab7/mips.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "mips.ngc" mips.ngd
+map -ise "C:/Users/ciont/Desktop/Facultate/Structura si organizarea Calculatorului/Laborator7/Lab7/mips.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o mips_map.ncd mips.ngd mips.pcf
+par -ise "C:/Users/ciont/Desktop/Facultate/Structura si organizarea Calculatorului/Laborator7/Lab7/mips.ise" -w -intstyle ise -ol std -t 1 mips_map.ncd mips.ncd mips.pcf
+trce -ise "C:/Users/ciont/Desktop/Facultate/Structura si organizarea Calculatorului/Laborator7/Lab7/mips.ise" -intstyle ise -e 3 -s 4 -xml mips mips.ncd -o mips.twr mips.pcf
+netgen -ise "C:/Users/ciont/Desktop/Facultate/Structura si organizarea Calculatorului/Laborator7/Lab7/mips.ise" -intstyle ise -s 4 -pcf mips.pcf -rpw 100 -tpw 0 -ar Structure -tm mips -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim mips.ncd mips_timesim.vhd

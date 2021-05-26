@@ -1,0 +1,9 @@
+[Inputs]
+ALUSrc
+=RdData1[31:0]=
+=RdData2[31:0]=
+=FAddr[15:0]=
+=ALUOP[1:0]=
+[Outputs]
+=Y[31:0]=
+[BiDir]

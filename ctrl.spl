@@ -1,0 +1,11 @@
+[Inputs]
+=OP[5:0]=
+=Funct[5:0]=
+[Outputs]
+ALUSrc
+MemWr
+Mem2Reg
+RegWr
+RegDest
+=ALUOP[1:0]=
+[BiDir]
